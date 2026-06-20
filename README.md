@@ -57,6 +57,17 @@ npx skills add Pythoughts-labs/react-frontend-skills --all -g
 
 > Powered by the open-source `skills` CLI. No account, no config — skills are symlinked into your agent's directory and activate automatically when relevant.
 
+### Or install from npm
+
+Published as [`@pythoughts/react-frontend-skills`](https://www.npmjs.com/package/@pythoughts/react-frontend-skills). Add it as a project dependency, then sync into your agent:
+
+```bash
+npm install @pythoughts/react-frontend-skills
+npx skills experimental_sync
+```
+
+`experimental_sync` reads the package from `node_modules` and installs all 18 skills into your detected agent.
+
 ---
 
 ## 🤖 Install Per-Agent
